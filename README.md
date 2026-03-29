@@ -9,6 +9,17 @@
 
 ---
 
+## Dashboard Preview
+
+![FinAgentGuard Dashboard Overview](docs/dashboard_overview.png)
+![Top Rule Hits Chart](docs/dashboard_top_rule_hits_chart.png)
+![Hallucination Alerts](docs/dashboard_hallucination_alerts.png)
+![Top Rule Hits Table](docs/dashboard_top_rule_hits_table.png)
+![Scenario Replay Results](docs/dashboard_scenario_replay_results.png)
+![Decision Details](docs/dashboard_decision_details.png)
+
+---
+
 ## The Problem This Solves
 
 Razorpay's Agent Studio (launched March 2026) enables AI agents to execute high-stakes payment operations — refunds, dispute resolution, routing decisions, reconciliation. A single hallucinated tool call in this environment doesn't just fail silently: **it moves real money.**
