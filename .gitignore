@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual env
+.venv/
+
+# Local env/secrets
+.env
+
+# Logs and generated outputs
+logs/
+simulations/last_report.json
+simulations/last_outcomes.json
+simulations/dataset_brief_report.json
+
+# Local datasets / user files
+data_input/
+
+# IDE / OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

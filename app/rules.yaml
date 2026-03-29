@@ -1,0 +1,31 @@
+version: 1
+
+defaults:
+  allowed_currencies:
+    - INR
+  blocked_actor_ids: []
+
+refund:
+  max_auto_refund_amount: 5000
+  max_refund_amount: 50000
+  max_transaction_age_days: 30
+  require_transaction_timestamp: true
+  blocked_merchants: []
+
+route_payment:
+  allowed_merchants: []
+  allowed_target_gateways:
+    - razorpay
+    - hdfc
+    - icici
+    - axis
+  require_approval_above_amount: 100000
+
+dispute:
+  allowed_payment_statuses:
+    - captured
+  require_approval_actions:
+    - accept
+
+reconciliation:
+  require_approval_above_amount: 200000
