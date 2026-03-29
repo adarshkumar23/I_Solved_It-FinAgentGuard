@@ -2,11 +2,6 @@
 
 > **Guardrail layer for financial AI agents — stops hallucinated tool calls before they cost real money.**
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.110%2B-green)](https://fastapi.tiangolo.com)
-[![LangGraph](https://img.shields.io/badge/LangGraph-agentic-orange)](https://github.com/langchain-ai/langgraph)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 ---
 
 ## Dashboard Preview
